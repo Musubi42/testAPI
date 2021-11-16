@@ -9,10 +9,6 @@ function Main(){
     numberDeath(result);
 };
 
-function ouvrir() {
-    window.open('https://google.fr');
-}
-
 // Améliorer la fonction pour récupérer automatiquement les données
 // Les retourner dans un array Key value pairs
 function getParameters() {
