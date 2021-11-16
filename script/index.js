@@ -24,6 +24,8 @@ function getParameters() {
     return parameters
 };
 
+// test Token
+
 function buildURL(parameters) {
     return URL = `https://deces.matchid.io/deces/api/v1/agg?firstName=${parameters["firstName"]}&lastName=${parameters["lastName"]}&deathCity=${parameters["deathCity"]}&deathCountry=${parameters["deathCountry"]}&fuzzy=false&aggs=firstName`;
 };
